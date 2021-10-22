@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LandingPage from './components/pages/LandingPage'
 import LoginPage from './components/pages/Login/LoginPage'
 import RegisterPage from './components/pages/Login/RegisterPage'
-import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
+import ForgetPasswordPage from './components/pages/Login/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
 
 import './App.css';

@@ -42,6 +42,11 @@ export default function SignInPage() {
     
     type="password" placeholder="Password" />
   </Form.Group>
+  <div style={{alignSelf:'flex-end',marginBottom:10}}>
+      <a href={'/forget-password'}>
+          Forgot Password?
+      </a>
+  </div>
  <Button style={{fontWeight:'bold',width:'60%',alignSelf:'center'}}>LOGIN</Button>
             </div>
             <div style={{backgroundColor:'gray',height:2,marginTop:20,marginBottom:7}}/>
